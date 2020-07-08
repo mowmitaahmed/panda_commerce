@@ -1,0 +1,85 @@
+.container{
+    margin-bottom: 100px;
+}
+
+/* CAROUSEL */
+.orange_bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.buy_now_button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136f 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 9px 25px;
+}
+.carousel-indicators > li{
+    width: 20px;
+    height: 10px;
+    background-color: #ffffff;
+    border: 0px solid;
+    border-radius: 6px;
+    opacity: 1;
+}
+.carousel-indicators li.active{
+    background-image: linear-gradient(to right, #FF3B88, #FF136F);
+    width: 35px;
+    height: 10px;
+    border-radius: 6px;
+    border: 0px solid;
+}
+
+/* CATEGORIES */
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+}
+.cat2{
+    background-image: linear-gradient(to right, #FF4992, #FF3987);
+}
+.cat3{
+    background-image: linear-gradient(to right, #4282FF, #3F07F8);
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+
+/* SHOES */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+
+/* BACKPACK */
+.card-footer{
+    background: white;
+    border-top: none;
+}
+
+/* SUBSCRIBE */
+.subscribe{
+    height: 300PX;
+}
+#subscribe h6{
+    color: gray;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+}
